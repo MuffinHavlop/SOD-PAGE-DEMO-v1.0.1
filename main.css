@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(54, 62, 68);
+}
+  .header-pic{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 50px;
+    border-radius: 50%;
+  }
+  .bg-pic{
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+  }
+  .the-almightly-lord{
+    display: flex;
+  justify-content: center;
+  align-items: center; /* Optional for vertical centering */
+  padding: 10px;
+  }
+  .hieu-hieu{
+    padding:10px;
+    opacity: 0; /* Initially hidden */
+  animation: fadeIn 1s ease-in-out forwards;
+  }
+  .chugn{
+    padding: 10px;
+    opacity: 0; /* Initially hidden */
+  animation: fadeIn 1s ease-in-out forwards;
+  }
+  .phuc-beo{
+    padding: 10px;
+    opacity: 0; /* Initially hidden */
+  animation: fadeIn 1s ease-in-out forwards;
+  }
+  .descrip{
+    display: flex;
+  justify-content: center;
+  align-items: center; /* Optional for vertical centering */
+  padding: 10px;
+  }
+  .order{
+    color:aliceblue;
+    font-size: 70px;
+    font-family: fantasy;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
